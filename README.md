@@ -48,3 +48,36 @@ Internship Assignment/
 │
 ├── README.md
 └── .gitignore
+
+
+▶️ How to Run the Project Locally
+1️⃣ Clone the repository
+git clone https://github.com/yourusername/school-management-project.git
+
+cd school-management-project
+
+2️⃣ Start Backend
+
+cd backend
+npm install
+node server.js
+Backend will run on:http://localhost:5000
+
+
+3️⃣ Start Frontend
+
+cd frontend
+npm install
+npm run dev
+Frontend will run on: http://localhost:5173
+
+
+👨‍🎓 Author
+
+Shakeel Ahmed
+B.Tech Student
+Full Stack Web Development Project
+
+📜 License
+
+This project is for educational purposes.
