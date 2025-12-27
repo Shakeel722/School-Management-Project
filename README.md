@@ -1,0 +1,83 @@
+# School Management System (Full Stack Project)
+
+This is a full-stack School Management System developed as part of a Web Development assignment.  
+The project allows users to add schools with images and view them in a responsive, e-commerce style layout.
+
+---
+
+## 🚀 Features
+
+- Add school details using a form
+- Upload and store school images
+- View all schools in a responsive grid
+- Backend API built with Node.js and Express
+- Data stored in MySQL database
+- Image upload handled using Multer
+- Frontend built using React (Vite)
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- React (Vite)
+- Axios
+- HTML5
+- CSS3
+
+### Backend
+- Node.js
+- Express.js
+- MySQL
+- Multer (for image upload)
+
+---
+
+## 📁 Project Structure
+Internship Assignment/
+├── frontend(school-project)/
+│ ├── src/
+│ ├── .env.example
+│ └── package.json
+│
+├── backend/
+│ ├── routes/
+│ ├── schoolImages/
+│ ├── .env.example
+│ └── server.js
+│
+├── README.md
+└── .gitignore
+
+
+▶️ How to Run the Project Locally
+1️⃣ Clone the repository
+git clone https://github.com/yourusername/school-management-project.git
+
+cd school-management-project
+
+2️⃣ Start Backend
+
+cd backend
+npm install
+node server.js
+Backend will run on:http://localhost:5000
+
+
+3️⃣ Start Frontend
+
+cd frontend
+npm install
+npm run dev
+Frontend will run on: http://localhost:5173
+
+
+👨‍🎓 Author
+
+Shakeel Ahmed
+B.Tech Student
+Full Stack Web Development Project
+
+📜 License
+
+This project is for educational purposes.
