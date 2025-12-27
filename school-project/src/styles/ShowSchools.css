@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Page container */
+.show-schools-page {
+  min-height: 100vh;
+  padding: 30px;
+  background-color: #f4f6f8;
+}
+
+/* Title */
+.page-title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 26px;
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+/* Grid layout */
+.schools-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Card */
+.school-card {
+  background: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  min-height: 320px;
+  display: flex;
+  flex-direction: column;
+}
+
+.school-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+}
+
+/* Image */
+.school-image {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  display: block;
+}
+
+/* Content */
+.school-name {
+  margin: 12px 14px 6px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.school-address,
+.school-city {
+  margin: 0 14px 8px;
+  font-size: 14px;
+  color: #555;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .show-schools-page {
+    padding: 20px;
+  }
+
+  .page-title {
+    font-size: 22px;
+  }
+}
