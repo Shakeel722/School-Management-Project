@@ -52,7 +52,7 @@ Internship Assignment/
 
 ▶️ How to Run the Project Locally
 1️⃣ Clone the repository
-git clone https://github.com/yourusername/school-management-project.git
+git clone https://github.com/Shakeel722/School-Management-Project.git
 
 cd school-management-project
 
